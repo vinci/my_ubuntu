@@ -1,0 +1,9 @@
+#! /bin/sh
+
+MIN=30
+PERIOD=$(echo $MIN \* 60 | bc)
+
+while [ "1" = "1" ]; do
+	sleep 3
+	alert "亲，休息休息眼睛哦！"
+done
